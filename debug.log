@@ -1,0 +1,560 @@
+INFO 2025-12-28 22:34:49,994 autoreload 9068 139193831260288 Watching for file changes with StatReloader
+INFO 2025-12-28 23:09:54,875 autoreload 10222 131295211016320 Watching for file changes with StatReloader
+INFO 2025-12-28 23:41:27,784 basehttp 10222 131295155549888 "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+WARNING 2025-12-28 23:41:28,089 log 10222 131295155549888 Unauthorized: /api/auth/register/
+WARNING 2025-12-28 23:41:28,089 basehttp 10222 131295155549888 "POST /api/auth/register/ HTTP/1.1" 401 58
+WARNING 2025-12-28 23:43:07,858 log 10222 131295155549888 Unauthorized: /api/auth/register/
+WARNING 2025-12-28 23:43:07,858 basehttp 10222 131295155549888 "POST /api/auth/register/ HTTP/1.1" 401 58
+WARNING 2025-12-28 23:43:10,544 log 10222 131295155549888 Unauthorized: /api/auth/register/
+WARNING 2025-12-28 23:43:10,544 basehttp 10222 131295155549888 "POST /api/auth/register/ HTTP/1.1" 401 58
+WARNING 2025-12-28 23:43:12,687 log 10222 131295155549888 Unauthorized: /api/auth/register/
+WARNING 2025-12-28 23:43:12,687 basehttp 10222 131295155549888 "POST /api/auth/register/ HTTP/1.1" 401 58
+INFO 2025-12-28 23:49:40,166 autoreload 10222 131295211016320 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-28 23:49:42,240 autoreload 12016 139892739719296 Watching for file changes with StatReloader
+INFO 2025-12-28 23:50:30,131 autoreload 12016 139892739719296 /home/bravo/kukunushi_project/backend/api1981/api/urls.py changed, reloading.
+INFO 2025-12-28 23:50:30,561 autoreload 12099 136093980782720 Watching for file changes with StatReloader
+INFO 2025-12-28 23:50:32,832 autoreload 12099 136093980782720 /home/bravo/kukunushi_project/backend/api1981/api/urls.py changed, reloading.
+INFO 2025-12-28 23:50:33,282 autoreload 12136 135218581323904 Watching for file changes with StatReloader
+INFO 2025-12-28 23:50:54,758 basehttp 12136 135218455377600 "POST /api/auth/register/ HTTP/1.1" 201 697
+INFO 2025-12-28 23:50:54,799 basehttp 12136 135218455377600 "OPTIONS /api/dashboard/ HTTP/1.1" 200 0
+INFO 2025-12-28 23:50:54,801 basehttp 12136 135218446984896 "OPTIONS /api/user/parcels/ HTTP/1.1" 200 0
+INFO 2025-12-28 23:50:54,874 basehttp 12136 135218446984896 "GET /api/user/parcels/ HTTP/1.1" 200 2
+INFO 2025-12-28 23:50:54,879 basehttp 12136 135218455377600 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-28 23:52:23,998 basehttp 12136 135218455377600 "OPTIONS /api/auth/profile/ HTTP/1.1" 200 0
+INFO 2025-12-28 23:52:24,035 basehttp 12136 135218455377600 "GET /api/services/ HTTP/1.1" 200 2
+INFO 2025-12-28 23:52:24,067 basehttp 12136 135218446984896 "GET /api/auth/profile/ HTTP/1.1" 200 200
+WARNING 2025-12-28 23:53:03,190 log 12136 135218438592192 Not Found: /
+WARNING 2025-12-28 23:53:03,191 basehttp 12136 135218438592192 "GET / HTTP/1.1" 404 3166
+WARNING 2025-12-28 23:53:03,322 log 12136 135218438592192 Not Found: /favicon.ico
+WARNING 2025-12-28 23:53:03,323 basehttp 12136 135218438592192 "GET /favicon.ico HTTP/1.1" 404 3217
+INFO 2025-12-28 23:53:13,363 basehttp 12136 135218438592192 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-28 23:53:14,368 basehttp 12136 135218438592192 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
+INFO 2025-12-28 23:53:14,451 basehttp 12136 135218421806784 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-28 23:53:14,512 basehttp 12136 135218430199488 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-12-28 23:53:14,512 basehttp 12136 135218438592192 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-12-28 23:53:14,513 basehttp 12136 135218421806784 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-12-28 23:53:14,517 basehttp 12136 135218421806784 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-12-28 23:53:14,519 basehttp 12136 135218430199488 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-12-28 23:53:14,560 basehttp 12136 135218438592192 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-28 23:53:28,153 basehttp 12136 135218438592192 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+INFO 2025-12-28 23:53:40,676 basehttp 12136 135218438592192 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4353
+INFO 2025-12-28 23:53:52,469 basehttp 12136 135218438592192 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4357
+INFO 2025-12-28 23:54:47,605 basehttp 12136 135218438592192 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-28 23:54:47,623 basehttp 12136 135218438592192 "GET /admin/ HTTP/1.1" 200 10202
+INFO 2025-12-28 23:54:47,712 basehttp 12136 135218438592192 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-12-28 23:54:47,719 basehttp 12136 135218438592192 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-12-28 23:54:47,720 basehttp 12136 135218430199488 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-28 23:54:54,161 basehttp 12136 135218438592192 "GET /admin/api/service/ HTTP/1.1" 200 11427
+INFO 2025-12-28 23:54:54,186 basehttp 12136 135218438592192 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-12-28 23:54:54,187 basehttp 12136 135218430199488 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-28 23:54:54,188 basehttp 12136 135218421806784 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-28 23:54:54,188 basehttp 12136 135217918506688 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-28 23:54:54,189 basehttp 12136 135218403972800 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-28 23:54:54,189 basehttp 12136 135218412365504 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-28 23:54:54,438 basehttp 12136 135218438592192 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-28 23:54:54,441 basehttp 12136 135217918506688 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-12-28 23:54:54,554 basehttp 12136 135217918506688 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-28 23:54:54,572 basehttp 12136 135218438592192 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-28 23:54:54,639 basehttp 12136 135218430199488 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-28 23:54:54,646 basehttp 12136 135218430199488 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-28 23:54:54,892 basehttp 12136 135217918506688 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-12-28 23:54:54,892 basehttp 12136 135218430199488 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-28 23:55:02,862 basehttp 12136 135217918506688 "GET /admin/api/service/add/ HTTP/1.1" 200 13739
+INFO 2025-12-28 23:55:02,884 basehttp 12136 135218430199488 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-12-28 23:55:02,884 basehttp 12136 135218438592192 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-12-28 23:55:02,887 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-28 23:55:02,892 basehttp 12136 135218430199488 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-12-28 23:55:02,932 basehttp 12136 135217918506688 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-12-28 23:55:55,158 basehttp 12136 135218446984896 "GET /api/user/parcels/ HTTP/1.1" 200 2
+INFO 2025-12-28 23:55:55,161 basehttp 12136 135218455377600 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-28 23:55:59,995 basehttp 12136 135218455377600 "GET /api/services/ HTTP/1.1" 200 2
+INFO 2025-12-28 23:55:59,996 basehttp 12136 135218446984896 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-28 23:56:33,327 basehttp 12136 135217918506688 "POST /admin/api/service/add/ HTTP/1.1" 200 13996
+INFO 2025-12-28 23:56:33,352 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-28 23:56:44,823 basehttp 12136 135217918506688 "POST /admin/api/service/add/ HTTP/1.1" 302 0
+INFO 2025-12-28 23:56:44,842 basehttp 12136 135217918506688 "GET /admin/api/service/ HTTP/1.1" 200 13554
+INFO 2025-12-28 23:56:44,909 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-28 23:56:44,937 basehttp 12136 135218430199488 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-12-28 23:56:57,417 basehttp 12136 135218446984896 "GET /api/services/ HTTP/1.1" 200 129
+INFO 2025-12-28 23:56:57,422 basehttp 12136 135218455377600 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-28 23:59:14,309 basehttp 12136 135218455377600 "OPTIONS /api/parcels/ HTTP/1.1" 200 0
+INFO 2025-12-28 23:59:18,656 basehttp 12136 135218455377600 "POST /api/parcels/ HTTP/1.1" 201 743
+INFO 2025-12-29 00:00:33,474 basehttp 12136 135217918506688 "GET /admin/api/approvallog/ HTTP/1.1" 200 12106
+INFO 2025-12-29 00:00:33,498 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:00:37,229 basehttp 12136 135217918506688 "GET /admin/api/parcel/ HTTP/1.1" 200 16072
+INFO 2025-12-29 00:00:37,256 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:00:37,321 basehttp 12136 135217918506688 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-12-29 00:00:42,762 basehttp 12136 135217918506688 "GET /admin/api/parcel/1/change/ HTTP/1.1" 200 34533
+INFO 2025-12-29 00:00:42,787 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:00:42,788 basehttp 12136 135218430199488 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-12-29 00:00:42,788 basehttp 12136 135218412365504 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-29 00:00:42,899 basehttp 12136 135217918506688 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-12-29 00:00:42,912 basehttp 12136 135217918506688 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-12-29 00:00:42,912 basehttp 12136 135218412365504 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-12-29 00:01:43,013 basehttp 12136 135217918506688 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 00:01:43,044 basehttp 12136 135217918506688 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:01:43,084 basehttp 12136 135218412365504 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-12-29 00:02:03,011 basehttp 12136 135218412365504 "GET /admin/api/parcel/ HTTP/1.1" 200 16072
+INFO 2025-12-29 00:02:03,027 basehttp 12136 135218412365504 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:02:08,486 basehttp 12136 135218412365504 "GET /admin/api/parcel/1/change/ HTTP/1.1" 200 34533
+INFO 2025-12-29 00:02:08,516 basehttp 12136 135218412365504 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:02:12,199 basehttp 12136 135218412365504 "GET /admin/api/driver/ HTTP/1.1" 200 11432
+INFO 2025-12-29 00:02:12,221 basehttp 12136 135218412365504 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:02:14,877 basehttp 12136 135218412365504 "GET /admin/api/driver/add/ HTTP/1.1" 200 16994
+INFO 2025-12-29 00:02:14,904 basehttp 12136 135218412365504 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:15:45,761 autoreload 12136 135218581323904 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:15:46,212 autoreload 13163 133629489975424 Watching for file changes with StatReloader
+INFO 2025-12-29 00:16:55,316 autoreload 13163 133629489975424 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 00:16:55,753 autoreload 13224 134583721779328 Watching for file changes with StatReloader
+INFO 2025-12-29 00:16:57,002 autoreload 13224 134583721779328 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 00:16:57,430 autoreload 13237 136881909334144 Watching for file changes with StatReloader
+INFO 2025-12-29 00:17:41,203 autoreload 13237 136881909334144 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:17:41,644 autoreload 13289 136366295371904 Watching for file changes with StatReloader
+INFO 2025-12-29 00:17:42,904 autoreload 13289 136366295371904 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:17:43,338 autoreload 13319 132889943285888 Watching for file changes with StatReloader
+INFO 2025-12-29 00:31:52,236 autoreload 13319 132889943285888 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:31:52,674 autoreload 13870 126348763197568 Watching for file changes with StatReloader
+INFO 2025-12-29 00:31:53,848 autoreload 13870 126348763197568 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:31:54,274 autoreload 13883 130901926895744 Watching for file changes with StatReloader
+INFO 2025-12-29 00:32:49,071 autoreload 13883 130901926895744 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:32:49,498 autoreload 13934 137552130101376 Watching for file changes with StatReloader
+INFO 2025-12-29 00:32:50,648 autoreload 13934 137552130101376 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:32:51,110 autoreload 13947 128625347879040 Watching for file changes with StatReloader
+INFO 2025-12-29 00:33:15,545 autoreload 13947 128625347879040 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:33:15,970 autoreload 13991 130616869642368 Watching for file changes with StatReloader
+INFO 2025-12-29 00:33:18,135 autoreload 13991 130616869642368 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:33:18,734 autoreload 14030 139356634599552 Watching for file changes with StatReloader
+INFO 2025-12-29 00:33:39,012 autoreload 14030 139356634599552 /home/bravo/kukunushi_project/backend/api1981/api/models.py changed, reloading.
+INFO 2025-12-29 00:33:39,392 autoreload 14066 136380235780224 Watching for file changes with StatReloader
+INFO 2025-12-29 00:39:50,904 autoreload 14534 129007146823808 Watching for file changes with StatReloader
+INFO 2025-12-29 00:48:59,232 basehttp 14534 129007090366144 "GET /admin/api/driver/add/ HTTP/1.1" 200 20044
+INFO 2025-12-29 00:48:59,252 basehttp 14534 129007090366144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:49:08,884 basehttp 14534 129007090366144 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 00:49:08,914 basehttp 14534 129007090366144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 00:49:17,799 basehttp 14534 129007090366144 "POST /admin/auth/user/ HTTP/1.1" 200 10505
+INFO 2025-12-29 00:49:18,067 basehttp 14534 129007090366144 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-12-29 00:49:20,389 basehttp 14534 129007090366144 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-12-29 00:49:20,406 basehttp 14534 129007090366144 "GET /admin/auth/user/ HTTP/1.1" 200 14476
+INFO 2025-12-29 00:49:20,466 basehttp 14534 129007090366144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-12-29 00:49:49,885 log 14534 129007071483584 Unauthorized: /api/dashboard/
+WARNING 2025-12-29 00:49:49,885 basehttp 14534 129007071483584 "GET /api/dashboard/ HTTP/1.1" 401 51
+WARNING 2025-12-29 00:49:49,886 log 14534 129006858925760 Unauthorized: /api/user/parcels/
+WARNING 2025-12-29 00:49:49,886 basehttp 14534 129006858925760 "GET /api/user/parcels/ HTTP/1.1" 401 51
+INFO 2025-12-29 00:51:23,378 basehttp 14534 129006858925760 "POST /api/auth/register/ HTTP/1.1" 201 697
+INFO 2025-12-29 00:51:23,429 basehttp 14534 129007071483584 "GET /api/user/parcels/ HTTP/1.1" 200 984
+INFO 2025-12-29 00:51:23,430 basehttp 14534 129006858925760 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 00:57:53,510 autoreload 14534 129007146823808 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:57:54,287 autoreload 15240 123983240482944 Watching for file changes with StatReloader
+INFO 2025-12-29 00:58:29,097 autoreload 15240 123983240482944 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:58:29,525 autoreload 15296 128142764118144 Watching for file changes with StatReloader
+INFO 2025-12-29 00:58:33,847 autoreload 15296 128142764118144 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 00:58:34,267 autoreload 15333 137980696100992 Watching for file changes with StatReloader
+INFO 2025-12-29 01:00:32,839 autoreload 15333 137980696100992 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 01:00:33,275 autoreload 15400 138118176456832 Watching for file changes with StatReloader
+INFO 2025-12-29 15:04:17,360 basehttp 15400 138118120044224 "OPTIONS /api/auth/profile/ HTTP/1.1" 200 0
+INFO 2025-12-29 15:04:17,480 basehttp 15400 138118120044224 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 15:05:34,501 basehttp 15400 138118111651520 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 15:05:34,530 basehttp 15400 138117893846720 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,537 basehttp 15400 138117893846720 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,540 basehttp 15400 138118111651520 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,543 basehttp 15400 138117868668608 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,544 basehttp 15400 138117877061312 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,545 basehttp 15400 138117860275904 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,575 basehttp 15400 138117860275904 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,576 basehttp 15400 138117877061312 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,580 basehttp 15400 138117893846720 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,581 basehttp 15400 138117868668608 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,583 basehttp 15400 138118111651520 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,586 basehttp 15400 138117885454016 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:05:34,590 basehttp 15400 138117885454016 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,621 basehttp 15400 138117877061312 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,636 basehttp 15400 138117868668608 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,636 basehttp 15400 138118111651520 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,636 basehttp 15400 138117885454016 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,695 basehttp 15400 138117868668608 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,695 basehttp 15400 138118111651520 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,720 basehttp 15400 138117885454016 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,726 basehttp 15400 138117885454016 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,726 basehttp 15400 138117877061312 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,730 basehttp 15400 138117893846720 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:34,730 basehttp 15400 138117877061312 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,036 basehttp 15400 138117877061312 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26728
+INFO 2025-12-29 15:05:45,068 basehttp 15400 138117877061312 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:05:45,096 basehttp 15400 138118111651520 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,096 basehttp 15400 138117885454016 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,106 basehttp 15400 138117885454016 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,140 basehttp 15400 138117877061312 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-12-29 15:05:45,141 basehttp 15400 138118111651520 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+INFO 2025-12-29 15:05:45,150 basehttp 15400 138117885454016 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,153 basehttp 15400 138117868668608 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,197 basehttp 15400 138118111651520 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,305 basehttp 15400 138117877061312 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,305 basehttp 15400 138118111651520 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-12-29 15:05:45,336 basehttp 15400 138118111651520 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-12-29 15:05:48,236 basehttp 15400 138118111651520 "GET /admin/auth/user/3/password/ HTTP/1.1" 200 11914
+INFO 2025-12-29 15:05:48,442 basehttp 15400 138118111651520 "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-12-29 15:05:48,517 basehttp 15400 138118111651520 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-12-29 15:05:58,251 basehttp 15400 138118111651520 "POST /admin/auth/user/3/password/ HTTP/1.1" 200 12238
+INFO 2025-12-29 15:06:14,147 basehttp 15400 138118111651520 "POST /admin/auth/user/3/password/ HTTP/1.1" 200 12163
+INFO 2025-12-29 15:06:33,911 basehttp 15400 138118111651520 "POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:06:33,949 basehttp 15400 138118111651520 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26864
+INFO 2025-12-29 15:06:34,016 basehttp 15400 138118111651520 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:08:28,496 autoreload 17794 124138374811776 Watching for file changes with StatReloader
+INFO 2025-12-29 15:13:31,359 basehttp 17794 124138245060288 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2025-12-29 15:13:31,715 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:13:31,716 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:13:39,383 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:13:39,384 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:14:32,146 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:14:32,147 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:14:33,186 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:14:33,187 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:14:45,622 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:14:45,623 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:14:52,986 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:14:52,986 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:14:54,803 log 17794 124138245060288 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:14:54,803 basehttp 17794 124138245060288 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:17:24,210 autoreload 17794 124138374811776 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:17:24,746 autoreload 18371 125644077289600 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:18:34,902 log 18371 125644020872896 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:18:34,903 basehttp 18371 125644020872896 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:18:35,945 log 18371 125644020872896 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:18:35,946 basehttp 18371 125644020872896 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:18:52,106 log 18371 125644020872896 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:18:52,106 basehttp 18371 125644020872896 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:19:11,979 autoreload 18663 134977613529216 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:19:17,046 log 18663 134977557178048 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:19:17,048 basehttp 18663 134977557178048 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:21:48,306 autoreload 18663 134977613529216 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:21:48,709 autoreload 18791 127960820543616 Watching for file changes with StatReloader
+INFO 2025-12-29 15:21:50,029 autoreload 18791 127960820543616 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:21:50,486 autoreload 18804 138034649096320 Watching for file changes with StatReloader
+INFO 2025-12-29 15:23:14,925 autoreload 18804 138034649096320 /home/bravo/kukunushi_project/backend/api1981/api/urls.py changed, reloading.
+INFO 2025-12-29 15:23:15,407 autoreload 18864 128100234317952 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:23:45,024 log 18864 128100177950400 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:23:45,025 basehttp 18864 128100177950400 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:23:59,260 log 18864 128100177950400 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:23:59,262 basehttp 18864 128100177950400 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:24:45,200 log 18864 128100177950400 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:24:45,200 basehttp 18864 128100177950400 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:25:04,766 log 18864 128100177950400 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:25:04,769 basehttp 18864 128100177950400 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:26:49,475 autoreload 18864 128100234317952 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:26:49,958 autoreload 19141 140711586328704 Watching for file changes with StatReloader
+INFO 2025-12-29 15:26:51,279 autoreload 19141 140711586328704 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:26:51,756 autoreload 19157 136578771284096 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:26:58,643 log 19157 136578714916544 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:26:58,643 basehttp 19157 136578714916544 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:27:02,421 log 19157 136578714916544 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:27:02,423 basehttp 19157 136578714916544 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:27:17,223 log 19157 136578714916544 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:27:17,225 basehttp 19157 136578714916544 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:27:28,785 autoreload 19310 138055341670528 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:27:32,567 log 19310 138055214167744 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:27:32,568 basehttp 19310 138055214167744 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:31:29,473 autoreload 19310 138055341670528 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:31:30,011 autoreload 19449 133844707102848 Watching for file changes with StatReloader
+INFO 2025-12-29 15:31:31,329 autoreload 19449 133844707102848 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:31:31,805 autoreload 19462 137665524347008 Watching for file changes with StatReloader
+INFO 2025-12-29 15:31:45,289 autoreload 19462 137665524347008 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:31:45,756 autoreload 19507 125043896868992 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:31:52,468 log 19507 125043840292544 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:31:52,469 basehttp 19507 125043840292544 "POST /api/auth/login/ HTTP/1.1" 400 40
+WARNING 2025-12-29 15:32:08,527 log 19507 125043840292544 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:32:08,528 basehttp 19507 125043840292544 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 15:32:46,940 autoreload 19507 125043896868992 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:32:47,316 autoreload 19655 138956687679616 Watching for file changes with StatReloader
+INFO 2025-12-29 15:32:48,615 autoreload 19655 138956687679616 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:32:49,023 autoreload 19668 129510082551936 Watching for file changes with StatReloader
+INFO 2025-12-29 15:33:26,768 autoreload 19668 129510082551936 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:33:27,237 autoreload 19714 138865520656512 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:33:34,163 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:33:34,163 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-12-29 15:34:12,859 basehttp 19714 138865455883968 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:34:12,908 basehttp 19714 138865455883968 "GET /admin/auth/user/ HTTP/1.1" 200 15007
+INFO 2025-12-29 15:34:13,017 basehttp 19714 138865455883968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-12-29 15:34:23,677 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:34:23,677 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-12-29 15:34:25,181 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:34:25,181 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-12-29 15:34:29,306 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:34:29,307 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-12-29 15:34:35,441 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:34:35,441 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-12-29 15:34:53,689 basehttp 19714 138865455883968 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26728
+INFO 2025-12-29 15:34:53,723 basehttp 19714 138865455883968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:34:56,270 basehttp 19714 138865455883968 "GET /admin/auth/user/3/password/ HTTP/1.1" 200 11914
+INFO 2025-12-29 15:36:14,007 basehttp 19714 138865455883968 "POST /admin/auth/user/3/password/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:36:14,042 basehttp 19714 138865455883968 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26864
+INFO 2025-12-29 15:36:14,122 basehttp 19714 138865455883968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:36:19,810 basehttp 19714 138865455883968 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:36:19,829 basehttp 19714 138865455883968 "GET /admin/auth/user/ HTTP/1.1" 200 15007
+INFO 2025-12-29 15:36:19,900 basehttp 19714 138865455883968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-12-29 15:36:43,877 log 19714 138865464276672 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:36:43,878 basehttp 19714 138865464276672 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-12-29 15:37:01,885 basehttp 19714 138865455883968 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26728
+INFO 2025-12-29 15:37:01,919 basehttp 19714 138865455883968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:40:08,993 autoreload 19714 138865520656512 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 15:40:09,490 autoreload 20200 136041202393216 Watching for file changes with StatReloader
+INFO 2025-12-29 15:43:19,253 autoreload 20200 136041202393216 /home/bravo/kukunushi_project/backend/api1981/courier_backend/urls.py changed, reloading.
+INFO 2025-12-29 15:43:19,709 autoreload 20292 124927018213504 Watching for file changes with StatReloader
+WARNING 2025-12-29 15:43:41,010 log 20292 124926961817280 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:43:41,010 basehttp 20292 124926961817280 "POST /api/auth/login/ HTTP/1.1" 401 63
+WARNING 2025-12-29 15:43:42,990 log 20292 124926961817280 Unauthorized: /api/auth/login/
+WARNING 2025-12-29 15:43:42,990 basehttp 20292 124926961817280 "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2025-12-29 15:43:59,750 basehttp 20292 124926953424576 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 15:43:59,780 basehttp 20292 124926953424576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:44:13,971 basehttp 20292 124926953424576 "POST /admin/auth/user/ HTTP/1.1" 200 10505
+INFO 2025-12-29 15:44:14,042 basehttp 20292 124926953424576 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-12-29 15:44:15,633 basehttp 20292 124926953424576 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:44:15,651 basehttp 20292 124926953424576 "GET /admin/auth/user/ HTTP/1.1" 200 14476
+INFO 2025-12-29 15:44:15,716 basehttp 20292 124926953424576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:44:53,337 basehttp 20292 124926961817280 "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+WARNING 2025-12-29 15:46:42,108 log 20292 124926945031872 Bad Request: /api/auth/register/
+WARNING 2025-12-29 15:46:42,108 basehttp 20292 124926945031872 "POST /api/auth/register/ HTTP/1.1" 400 58
+INFO 2025-12-29 15:46:52,526 basehttp 20292 124926953424576 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 15:46:52,553 basehttp 20292 124926953424576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:47:08,670 basehttp 20292 124926953424576 "POST /admin/auth/user/ HTTP/1.1" 200 10505
+INFO 2025-12-29 15:47:10,181 basehttp 20292 124926953424576 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-12-29 15:47:10,202 basehttp 20292 124926953424576 "GET /admin/auth/user/ HTTP/1.1" 200 14476
+INFO 2025-12-29 15:47:10,267 basehttp 20292 124926953424576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 15:47:23,663 basehttp 20292 124926945031872 "POST /api/auth/register/ HTTP/1.1" 201 697
+INFO 2025-12-29 15:47:23,732 basehttp 20292 124926945031872 "OPTIONS /api/dashboard/ HTTP/1.1" 200 0
+INFO 2025-12-29 15:47:23,740 basehttp 20292 124926924572352 "OPTIONS /api/user/parcels/ HTTP/1.1" 200 0
+INFO 2025-12-29 15:47:23,761 basehttp 20292 124926945031872 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 15:47:23,765 basehttp 20292 124926924572352 "GET /api/user/parcels/ HTTP/1.1" 200 984
+INFO 2025-12-29 15:47:59,640 basehttp 20292 124926924572352 "GET /api/services/ HTTP/1.1" 200 129
+INFO 2025-12-29 15:47:59,646 basehttp 20292 124926945031872 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 15:49:54,411 basehttp 20292 124926945031872 "OPTIONS /api/parcels/ HTTP/1.1" 200 0
+INFO 2025-12-29 15:49:57,990 basehttp 20292 124926945031872 "POST /api/parcels/ HTTP/1.1" 201 762
+WARNING 2025-12-29 15:50:21,196 log 20292 124926945031872 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:50:21,197 basehttp 20292 124926945031872 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 15:50:56,004 log 20292 124926945031872 Bad Request: /api/auth/login/
+WARNING 2025-12-29 15:50:56,004 basehttp 20292 124926945031872 "POST /api/auth/login/ HTTP/1.1" 400 37
+INFO 2025-12-29 16:07:19,079 basehttp 20292 124926945031872 "GET /api/auth/profile/ HTTP/1.1" 200 200
+WARNING 2025-12-29 16:09:48,513 log 20292 124926945031872 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:09:48,514 basehttp 20292 124926945031872 "POST /api/auth/login/ HTTP/1.1" 400 37
+INFO 2025-12-29 16:10:36,411 autoreload 20292 124927018213504 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:10:36,899 autoreload 21477 130944492986496 Watching for file changes with StatReloader
+WARNING 2025-12-29 16:11:05,621 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:05,623 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:06,894 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:06,895 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:07,645 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:07,645 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:07,809 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:07,810 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:07,973 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:07,973 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:08,149 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:08,150 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:08,339 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:08,339 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:08,548 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:08,548 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+WARNING 2025-12-29 16:11:08,730 log 21477 130944436442816 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:11:08,730 basehttp 21477 130944436442816 "POST /api/auth/login/ HTTP/1.1" 400 37
+INFO 2025-12-29 16:21:05,580 autoreload 21477 130944492986496 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:06,054 autoreload 21747 138625353003136 Watching for file changes with StatReloader
+INFO 2025-12-29 16:21:07,386 autoreload 21747 138625353003136 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:07,843 autoreload 21760 126764666724480 Watching for file changes with StatReloader
+INFO 2025-12-29 16:21:27,345 autoreload 21760 126764666724480 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:27,795 autoreload 21806 136089636192384 Watching for file changes with StatReloader
+INFO 2025-12-29 16:21:33,164 autoreload 21806 136089636192384 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:33,647 autoreload 21845 136129193902208 Watching for file changes with StatReloader
+INFO 2025-12-29 16:21:40,937 autoreload 21845 136129193902208 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:41,387 autoreload 21896 124718806311040 Watching for file changes with StatReloader
+INFO 2025-12-29 16:21:48,635 autoreload 21896 124718806311040 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:21:49,070 autoreload 21932 138397571698816 Watching for file changes with StatReloader
+INFO 2025-12-29 16:22:17,614 autoreload 21932 138397571698816 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:22:18,057 autoreload 21989 130498298953856 Watching for file changes with StatReloader
+INFO 2025-12-29 16:22:19,251 autoreload 21989 130498298953856 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:22:19,696 autoreload 22002 131334785552512 Watching for file changes with StatReloader
+WARNING 2025-12-29 16:24:48,220 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:24:48,220 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:10,534 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:10,535 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:11,746 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:11,747 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:12,582 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:12,583 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:13,876 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:13,876 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:14,891 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:14,891 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:15,760 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:15,761 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:16,558 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:16,558 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:17,467 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:17,467 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:25:45,858 log 22002 131334660945600 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:25:45,858 basehttp 22002 131334660945600 "POST /api/auth/login/ HTTP/1.1" 400 57
+INFO 2025-12-29 16:28:35,695 autoreload 22002 131334785552512 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:28:36,186 autoreload 22313 131412742750336 Watching for file changes with StatReloader
+INFO 2025-12-29 16:28:41,419 autoreload 22313 131412742750336 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:28:41,872 autoreload 22353 140271732048000 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:07,530 autoreload 22353 140271732048000 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:29:07,979 autoreload 22407 128276555448448 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:41,539 autoreload 22407 128276555448448 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:29:41,990 autoreload 22466 137800098398336 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:44,183 autoreload 22466 137800098398336 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:29:44,623 autoreload 22502 124464211906688 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:46,815 autoreload 22502 124464211906688 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:29:47,306 autoreload 22504 126026024812672 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:48,571 autoreload 22504 126026024812672 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:29:49,030 autoreload 22540 136819493912704 Watching for file changes with StatReloader
+INFO 2025-12-29 16:29:58,294 autoreload 22540 136819493912704 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:29:58,740 autoreload 22578 132044259897472 Watching for file changes with StatReloader
+INFO 2025-12-29 16:30:29,278 autoreload 22578 132044259897472 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:30:29,725 autoreload 22641 123634111352960 Watching for file changes with StatReloader
+INFO 2025-12-29 16:30:58,234 autoreload 22641 123634111352960 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:30:58,673 autoreload 22698 126836920520832 Watching for file changes with StatReloader
+INFO 2025-12-29 16:30:59,848 autoreload 22698 126836920520832 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:00,292 autoreload 22711 126377658814592 Watching for file changes with StatReloader
+INFO 2025-12-29 16:31:03,503 autoreload 22711 126377658814592 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:03,950 autoreload 22735 123785474060416 Watching for file changes with StatReloader
+INFO 2025-12-29 16:31:11,215 autoreload 22735 123785474060416 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:11,702 autoreload 22790 125557692293248 Watching for file changes with StatReloader
+INFO 2025-12-29 16:31:14,907 autoreload 22790 125557692293248 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:15,334 autoreload 22820 134846421078144 Watching for file changes with StatReloader
+INFO 2025-12-29 16:31:16,509 autoreload 22820 134846421078144 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:16,977 autoreload 22828 129028289814656 Watching for file changes with StatReloader
+INFO 2025-12-29 16:31:20,178 autoreload 22828 129028289814656 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:31:20,534 autoreload 22857 123331470905472 Watching for file changes with StatReloader
+INFO 2025-12-29 16:32:27,523 autoreload 22857 123331470905472 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:32:28,010 autoreload 22911 136375838363776 Watching for file changes with StatReloader
+INFO 2025-12-29 16:32:29,179 autoreload 22911 136375838363776 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:32:29,633 autoreload 22924 133344831725696 Watching for file changes with StatReloader
+INFO 2025-12-29 16:32:41,935 autoreload 22924 133344831725696 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:32:42,380 autoreload 22967 135559453245568 Watching for file changes with StatReloader
+INFO 2025-12-29 16:32:45,580 autoreload 22967 135559453245568 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:32:45,997 autoreload 23003 127729024180352 Watching for file changes with StatReloader
+INFO 2025-12-29 16:32:47,161 autoreload 23003 127729024180352 /home/bravo/kukunushi_project/backend/api1981/api/serializers.py changed, reloading.
+INFO 2025-12-29 16:32:47,601 autoreload 23006 140121270452352 Watching for file changes with StatReloader
+WARNING 2025-12-29 16:32:58,894 log 23006 140121213933248 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:32:58,894 basehttp 23006 140121213933248 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:33:01,251 log 23006 140121213933248 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:33:01,251 basehttp 23006 140121213933248 "POST /api/auth/login/ HTTP/1.1" 400 57
+WARNING 2025-12-29 16:33:02,320 log 23006 140121213933248 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:33:02,321 basehttp 23006 140121213933248 "POST /api/auth/login/ HTTP/1.1" 400 57
+INFO 2025-12-29 16:33:10,451 autoreload 23152 129517465497728 Watching for file changes with StatReloader
+INFO 2025-12-29 16:33:24,860 basehttp 23152 129517409097408 "GET /api/auth/profile/ HTTP/1.1" 200 200
+WARNING 2025-12-29 16:33:34,019 log 23152 129517409097408 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:33:34,020 basehttp 23152 129517409097408 "POST /api/auth/login/ HTTP/1.1" 400 57
+INFO 2025-12-29 16:37:34,069 basehttp 23152 129517409097408 "GET /api/auth/profile/ HTTP/1.1" 200 200
+WARNING 2025-12-29 16:37:49,684 log 23152 129517409097408 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:37:49,685 basehttp 23152 129517409097408 "POST /api/auth/login/ HTTP/1.1" 400 42
+INFO 2025-12-29 16:38:07,057 basehttp 23152 129517409097408 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 16:38:07,135 basehttp 23152 129517409097408 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 16:38:07,141 basehttp 23152 129517399656128 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 16:39:02,486 basehttp 23152 129517391263424 "GET /admin/auth/user/ HTTP/1.1" 200 14813
+INFO 2025-12-29 16:39:02,525 basehttp 23152 129517391263424 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-12-29 16:39:17,132 log 23152 129517399656128 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:39:17,134 basehttp 23152 129517399656128 "POST /api/auth/login/ HTTP/1.1" 400 42
+INFO 2025-12-29 16:44:36,398 autoreload 23152 129517465497728 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:44:36,891 autoreload 23798 123804950311040 Watching for file changes with StatReloader
+INFO 2025-12-29 16:44:47,263 autoreload 23798 123804950311040 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:44:47,755 autoreload 23854 133381516730496 Watching for file changes with StatReloader
+INFO 2025-12-29 16:45:08,215 autoreload 23854 133381516730496 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:45:08,742 autoreload 23913 138651283431552 Watching for file changes with StatReloader
+INFO 2025-12-29 16:45:09,937 autoreload 23913 138651283431552 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:45:10,379 autoreload 23927 123300635549824 Watching for file changes with StatReloader
+INFO 2025-12-29 16:45:30,965 autoreload 23927 123300635549824 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:45:31,426 autoreload 23972 130105371951232 Watching for file changes with StatReloader
+INFO 2025-12-29 16:45:47,812 autoreload 23972 130105371951232 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:45:48,257 autoreload 24026 135101538578560 Watching for file changes with StatReloader
+INFO 2025-12-29 16:45:54,636 autoreload 24026 135101538578560 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:45:55,104 autoreload 24074 124175051346048 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:11,496 autoreload 24074 124175051346048 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:11,941 autoreload 24118 125908516057216 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:20,380 autoreload 24118 125908516057216 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:20,861 autoreload 24174 137726521663616 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:31,174 autoreload 24174 137726521663616 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:31,621 autoreload 24211 124050284802176 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:44,961 autoreload 24211 124050284802176 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:45,404 autoreload 24265 129964079014016 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:49,637 autoreload 24265 129964079014016 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:50,002 autoreload 24302 129715362902144 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:55,267 autoreload 24302 129715362902144 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:55,758 autoreload 24339 124006190452864 Watching for file changes with StatReloader
+INFO 2025-12-29 16:46:56,957 autoreload 24339 124006190452864 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:46:57,417 autoreload 24359 126447662682240 Watching for file changes with StatReloader
+INFO 2025-12-29 16:47:05,836 autoreload 24359 126447662682240 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:47:06,299 autoreload 24395 129084181340288 Watching for file changes with StatReloader
+INFO 2025-12-29 16:47:08,502 autoreload 24395 129084181340288 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:47:08,953 autoreload 24431 130515384754304 Watching for file changes with StatReloader
+INFO 2025-12-29 16:47:19,303 autoreload 24431 130515384754304 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:47:19,791 autoreload 24467 124097283432576 Watching for file changes with StatReloader
+INFO 2025-12-29 16:47:27,212 autoreload 24467 124097283432576 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:47:27,719 autoreload 24522 136029813895296 Watching for file changes with StatReloader
+INFO 2025-12-29 16:47:35,994 autoreload 24522 136029813895296 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:47:36,454 autoreload 24559 133995906719872 Watching for file changes with StatReloader
+INFO 2025-12-29 16:48:26,533 autoreload 24559 133995906719872 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:48:27,012 autoreload 24620 140315736453248 Watching for file changes with StatReloader
+INFO 2025-12-29 16:48:40,365 autoreload 24620 140315736453248 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:48:40,833 autoreload 24677 139017397887104 Watching for file changes with StatReloader
+INFO 2025-12-29 16:48:57,240 autoreload 24677 139017397887104 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:48:57,679 autoreload 24735 134013306269824 Watching for file changes with StatReloader
+INFO 2025-12-29 16:48:59,885 autoreload 24735 134013306269824 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:49:00,322 autoreload 24771 136186108944512 Watching for file changes with StatReloader
+INFO 2025-12-29 16:51:42,963 autoreload 24771 136186108944512 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 16:51:43,427 autoreload 24830 128058995302528 Watching for file changes with StatReloader
+INFO 2025-12-29 16:52:36,300 autoreload 24830 128058995302528 /home/bravo/kukunushi_project/backend/api1981/api/urls.py changed, reloading.
+INFO 2025-12-29 16:52:36,761 autoreload 24895 127444512362624 Watching for file changes with StatReloader
+INFO 2025-12-29 16:52:46,573 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 16:53:33,668 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 200 668
+WARNING 2025-12-29 16:56:48,127 log 24895 127444456027840 Bad Request: /api/auth/login/
+WARNING 2025-12-29 16:56:48,128 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 400 40
+INFO 2025-12-29 16:57:21,187 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:00:47,692 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:01:02,723 basehttp 24895 127444456027840 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:01:13,934 basehttp 24895 127444456027840 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:01:14,005 basehttp 24895 127444456027840 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 17:01:14,005 basehttp 24895 127444447635136 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 17:01:37,667 basehttp 24895 127444447635136 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:01:56,065 basehttp 24895 127444447635136 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:02:24,038 basehttp 24895 127444447635136 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:02:57,178 basehttp 24895 127444447635136 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:03:29,827 autoreload 24895 127444512362624 /home/bravo/kukunushi_project/backend/api1981/api/urls.py changed, reloading.
+INFO 2025-12-29 17:03:30,241 autoreload 25607 130352977948800 Watching for file changes with StatReloader
+INFO 2025-12-29 17:03:35,574 autoreload 25607 130352977948800 /home/bravo/kukunushi_project/backend/api1981/api/views.py changed, reloading.
+INFO 2025-12-29 17:03:35,970 autoreload 25646 124587203936384 Watching for file changes with StatReloader
+INFO 2025-12-29 17:03:57,652 basehttp 25646 124587147491008 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:04:21,688 basehttp 25646 124587147491008 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:04:30,938 basehttp 25646 124587147491008 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:04:31,511 basehttp 25646 124587147491008 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 17:04:31,512 basehttp 25646 124587069142720 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 17:04:44,968 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:05:04,967 basehttp 25646 124587069142720 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:05:05,056 basehttp 25646 124587147491008 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 17:05:05,063 basehttp 25646 124587069142720 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 17:05:12,130 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:05:30,623 basehttp 25646 124587147491008 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 17:05:30,628 basehttp 25646 124587069142720 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 17:05:36,130 basehttp 25646 124587147491008 "OPTIONS /api/auth/profile/ HTTP/1.1" 200 0
+INFO 2025-12-29 17:05:36,132 basehttp 25646 124587069142720 "GET /api/services/ HTTP/1.1" 200 129
+INFO 2025-12-29 17:05:36,144 basehttp 25646 124587147491008 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:10:54,771 basehttp 25646 124587069142720 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:10:59,972 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:11:08,155 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:11:26,096 basehttp 25646 124587069142720 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:12:32,747 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:40:04,385 basehttp 25646 124587069142720 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+INFO 2025-12-29 17:40:06,445 basehttp 25646 124587069142720 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:40:22,226 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:42:21,317 basehttp 25646 124587069142720 "POST /api/auth/login/ HTTP/1.1" 200 668
+INFO 2025-12-29 17:42:28,806 basehttp 25646 124587069142720 "GET /api/auth/profile/ HTTP/1.1" 200 200
+INFO 2025-12-29 17:42:42,527 basehttp 25646 124587069142720 "GET /api/dashboard/ HTTP/1.1" 200 120
+INFO 2025-12-29 17:42:42,534 basehttp 25646 124587147491008 "GET /api/user/parcels/ HTTP/1.1" 200 1986
+INFO 2025-12-29 17:44:24,266 basehttp 25646 124587060750016 "POST /admin/auth/user/ HTTP/1.1" 200 10505
+INFO 2025-12-29 17:44:28,351 basehttp 25646 124587060750016 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-12-29 17:44:28,418 basehttp 25646 124587060750016 "GET /admin/auth/user/ HTTP/1.1" 200 14476
+INFO 2025-12-29 17:44:28,555 basehttp 25646 124587060750016 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 17:44:36,252 basehttp 25646 124587060750016 "GET /admin/api/parcel/ HTTP/1.1" 200 16665
+INFO 2025-12-29 17:44:36,278 basehttp 25646 124587060750016 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-29 17:45:04,880 basehttp 25646 124587060750016 "POST /admin/api/parcel/ HTTP/1.1" 200 10900
+INFO 2025-12-29 17:45:15,929 basehttp 25646 124587060750016 "POST /admin/api/parcel/ HTTP/1.1" 302 0
+INFO 2025-12-29 17:45:15,948 basehttp 25646 124587060750016 "GET /admin/api/parcel/ HTTP/1.1" 200 13438
+INFO 2025-12-29 17:45:16,049 basehttp 25646 124587060750016 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
