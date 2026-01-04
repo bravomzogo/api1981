@@ -171,6 +171,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default port
     "http://localhost:3000",  # React default port
     "https://issa-ldtn.onrender.com",  # Production URL
+    "https://imcouriersupply.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
