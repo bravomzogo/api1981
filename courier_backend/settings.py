@@ -15,16 +15,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings
 SECRET_KEY = 'django-insecure-()q*+l9!k+km$aq69kra@pad0s=j!dirg-6l7s4ub#x4+60pd0'
 
-# IMPORTANT FIX: Always set DEBUG to True for Render to test CORS issues first
-# Then change back after it's working
-DEBUG = True  # Set to True first for debugging, then change to os.environ.get('DEBUG', '') != 'False'
+DEBUG = os.environ.get('DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ["*"]
 
 
-# Application definition - FIX: Move corsheaders to the top
+# Application definition
 INSTALLED_APPS = [
-    'corsheaders',  # Must be here
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -33,14 +30,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
+    'corsheaders',
     'api',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',  # Must be at the top
-    'django.middleware.common.CommonMiddleware',  # Should come after CORS
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -168,21 +166,15 @@ SIMPLE_JWT = {
     'JTI_CLAIM': 'jti',
 }
 
-# CORS settings - UPDATED FOR PRODUCTION
-# Option 1: For testing/debugging, use this:
-CORS_ALLOW_ALL_ORIGINS = True  # Temporary for debugging, remove when fixed
-
-# Option 2: For production, use this (comment out the line above when ready):
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-#     "http://localhost:3000",
-#     "https://issa-ldtn.onrender.com",
-#     "https://api-n7hd.onrender.com",  # Add your API domain too
-# ]
+# CORS settings
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # Vite default port
+    "http://localhost:3000",  # React default port
+    "https://issa-ldtn.onrender.com",  # Production URL
+]
 
 CORS_ALLOW_CREDENTIALS = True
 
-# IMPORTANT: Add these for preflight requests
 CORS_ALLOW_METHODS = [
     'DELETE',
     'GET',
@@ -202,13 +194,7 @@ CORS_ALLOW_HEADERS = [
     'user-agent',
     'x-csrftoken',
     'x-requested-with',
-    'access-control-allow-origin',
-    'access-control-allow-credentials',
 ]
-
-# Add explicit CORS settings for production
-CORS_EXPOSE_HEADERS = ['Content-Type', 'Authorization']
-CORS_PREFLIGHT_MAX_AGE = 86400  # 24 hours
 
 # Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -222,7 +208,7 @@ DEFAULT_FROM_EMAIL = 'I&M courier general supplier <bravomzogo@gmail.com>'
 # Frontend URL for email links
 FRONTEND_URL = 'https://issa-ldtn.onrender.com'
 
-# Logging - ADD CORS LOGGING
+# Logging
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -258,39 +244,16 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': False,
         },
-        'corsheaders': {
-            'handlers': ['console', 'file'],
-            'level': 'DEBUG',
-            'propagate': False,
-        },
     },
 }
 
-# Security settings for production - MODIFIED FOR CORS COMPATIBILITY
-# IMPORTANT: When DEBUG=False, comment these out temporarily to test
-# if not DEBUG:
-#     SECURE_BROWSER_XSS_FILTER = True
-#     SECURE_CONTENT_TYPE_NOSNIFF = True
-#     SECURE_HSTS_SECONDS = 31536000
-#     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-#     SECURE_HSTS_PRELOAD = True
-#     SECURE_SSL_REDIRECT = True
-#     SESSION_COOKIE_SECURE = True
-#     CSRF_COOKIE_SECURE = True
-
-# TEMPORARY FIX: Disable security settings to test CORS
-# Comment these lines out after CORS is working, then uncomment above section
-SECURE_BROWSER_XSS_FILTER = False
-SECURE_CONTENT_TYPE_NOSNIFF = False
-SECURE_HSTS_SECONDS = 0
-SECURE_HSTS_INCLUDE_SUBDOMAINS = False
-SECURE_HSTS_PRELOAD = False
-SECURE_SSL_REDIRECT = False
-SESSION_COOKIE_SECURE = False
-CSRF_COOKIE_SECURE = False
-CSRF_TRUSTED_ORIGINS = [
-    'https://issa-ldtn.onrender.com',
-    'https://api-n7hd.onrender.com',
-    'http://localhost:5173',
-    'http://localhost:3000',
-]
+# Security settings for production
+if not DEBUG:
+    SECURE_BROWSER_XSS_FILTER = True
+    SECURE_CONTENT_TYPE_NOSNIFF = True
+    SECURE_HSTS_SECONDS = 31536000
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
