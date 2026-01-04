@@ -170,7 +170,7 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default port
     "http://localhost:3000",  # React default port
-    "https://i-m-courier.onrender.com",  # Production URL
+    "https://issa-ldtn.onrender.com",  # Production URL
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -206,7 +206,7 @@ EMAIL_HOST_PASSWORD = 'lhzv ktto mrsw ebxg'
 DEFAULT_FROM_EMAIL = 'I&M courier general supplier <bravomzogo@gmail.com>'
 
 # Frontend URL for email links
-FRONTEND_URL = 'https://i-m-courier.onrender.com'
+FRONTEND_URL = 'https://issa-ldtn.onrender.com'
 
 # Logging
 LOGGING = {
